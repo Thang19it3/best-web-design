@@ -1,0 +1,2165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fresh Food</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav class="black1">
+			<img src="images/freshfood.jpg" class="logo" id="text8" style="width: 75px;height:75px;margin-top: 0px;">
+			<div class="menu">
+				<ul class="nav" role="tablist">
+					<li class="nav-item"><a class="nav-link active text" id="text" href="#home" data-toggle="tab">Trang Chủ</a></li>
+					<li class="nav-item"><a class="nav-link text" id="text1" href="Gioithieu.html">Giới Thiệu</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle text"  id="text2"  data-toggle="dropdown" href="#cuahang" role="button" aria-haspopup="true" aria-expanded="false">Cửa Hàng</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item " id="text"  href="CuaHang.html">Tất Cả</a>
+							<a class="dropdown-item " id="text" href="RauCu.html">Rau Củ</a>
+							<a class="dropdown-item " id="text"  href="TraiCay.html">Trái Cây</a>
+							<a class="dropdown-item " id="text"  href="ThitTrung.html">Thịt Trứng</a>
+							
+						</div>
+					</li>
+					<li class="nav-item"><a class="nav-link text" id="text3"  href="Tintuc.html" >Tin tức</a></li>
+					<li class="nav-item"><a class="nav-link text"  id="text4" href="Lienhe.html">Liên Hệ</a></li>
+					<li class="nav-item"><a class="nav-link text"  id="text5" href="#tk" data-toggle="tab"><span><i class="fas fa-search"></i></span></a></li>
+					<li class="nav-item" style="margin-left: -50px;">
+						<a class="nav-link text"  id="text6" href="Giohang.html">
+							<span><i class="fas fa-shopping-cart"></i></span>
+							<span class="cart"><sup id="count-item" data-count = "0">0</sup></span>
+						</a>
+					</li>
+					<li class="nav-item" style="margin-left: -50px;"><a class="nav-link text"  id="text7" href="Login.html" ><span><i class="fas fa-user-astronaut"></i></span></a></li>
+				</ul>		
+			</div>
+		</nav>
+
+	</header>
+	
+
+	<!------------------------------------------------------------------------>
+	<div class="h1">
+		<span  style="margin-top: -100px;margin-bottom: 20px;">Giao Hàng tận tay người dùng</span>
+		<span >Với chất lượng nông sản sạch và an toàn nhất</span>
+		<button type="button" class="btn btn-success" style="border-radius: 10px;line-height: 40px;">Mua Ngay</button>
+	</div>
+	<div style="height: 700px;margin-bottom: 50px;width: 1290px;margin-left: 150px;"  class="jj">
+		<img src="images/img-banner1.png" style="width: 400px;margin-left: 900px;margin-top: -100px;">
+		<div class="" style="margin-left: 150px;height: 200px;margin-top: -170px;">
+			<div style="float: left;margin-top: 50px;">
+				<img src="images/messi.jpg" style="border-radius: 50%;width: 130px;height: 130px;margin-top: -15px;">
+			</div>
+			<div style="float: left;margin-top: 30px;margin-left: 30px;">
+				<h2 style="color: #550000;font-weight: bold;font-family: 'Lobster', cursive;">Chúng tôi bán nông sản sạch !</h2>
+				<hr>
+				<p style="font-family: 'Caveat', cursive;font-size: 20px;">Cửa hàng luôn cung cấp các sản phẩm tốt nhât <br> các chương trình khuyến mãi lớn và đặc sắc </p>
+			</div>
+		</div>
+		<div style="clear: both;">
+		</div>
+		<div style="float: left;width: 300px; height: 500px;border-radius: 40px;margin-right: 50px;margin-left: 150px;" class="jjj1">
+			<i class="fas fa-apple-alt" style="margin-left: 140px;color: white;font-size: 25px;margin-top: 80px;"></i>
+			<h5 style="margin-left: 110px;color: white;">Nhanh Tay</h5>
+			<h1 style="margin-left: 70px;margin-top: 20px;color: white;font-weight: bold;font-family: 'Galada', cursive;">Chuối Tươi !</h1>
+			<hr style="height: 2px;background: white;width: 50px;">
+			<h3 style="text-align: center;color: white;margin-top: 30px;">Giảm giá 40%</h3>
+			<button class="btn btn-outline" style="margin-left: 75px;margin-top: 100px;height: 60px;border-radius: 20px;border: 2px solid white;width:150px;color: white;font-size: 20px;">Mua Ngay</button>
+		</div>
+		<div style="float: left;width: 300px; height: 500px;border-radius: 40px;margin-right: 50px;" class="jjj2">
+			<i class="fas fa-apple-alt" style="margin-left: 140px;color: white;font-size: 25px;margin-top: 80px;"></i>
+			<h5 style="margin-left: 110px;color: white;">Nhanh Tay</h5>
+			<h1 style="text-align:center;margin-top: 20px;color: white;font-weight: bold;font-family: 'Galada', cursive;">Kiwi !</h1>
+			<hr style="height: 2px;background: white;width: 50px;">
+			<h3 style="text-align: center;color: white;margin-top: 30px;">Giảm giá 40%</h3>
+			<button class="btn btn-outline" style="margin-left: 75px;margin-top: 100px;height: 60px;border-radius: 20px;border: 2px solid white;width:150px;color: white;font-size: 20px;">Mua Ngay</button>
+		</div>
+		<div style="float: left;width: 300px; height: 500px;border-radius: 40px;" class="jjj3">
+			<i class="fas fa-apple-alt" style="margin-left: 140px;color: white;font-size: 25px;margin-top: 80px;"></i>
+			<h5 style="margin-left: 110px;color: white;">Nhanh Tay</h5>
+			<h1 style="margin-left: 70px;margin-top: 20px;color: white;font-weight: bold;font-family: 'Galada', cursive;">Táo  Đỏ!</h1>
+			<hr style="height: 2px;background: white;width: 50px;">
+			<h3 style="text-align: center;color: white;margin-top: 30px;">Giảm giá 40%</h3>
+			<button class="btn btn-outline" style="margin-left: 75px;margin-top: 100px;height: 60px;border-radius: 20px;border: 2px solid white;width:150px;color: white;font-size: 20px;">Mua Ngay</button>
+		</div>
+
+	</div>
+
+
+	<!------------------------------------------------------------------------>
+	<div id="poster" style="padding-bottom: 70px; clear: left;height: 300px;font-family: 'Pangolin', cursive;"	>
+		<div style="float:left;background: #FFF0F5;width: 50%;height:232px; ">
+			<div class="a1" style="float: left;">
+				<img src="images/home7_img4.png" style="width: 400px;margin-top: 17px;">
+			</div>
+			<div style="float: right; margin-top: 65px;margin-right: 40px;">
+				<h2>Tiết kiệm tới 50%</h2>
+				<p style="text-align: center;">trong lần mua hàng đầu tiên của bạn
+					<br>
+					<button class="btn1">Mua Ngay</button>
+				</p>
+			</div>
+		</div>
+		<div style="float: right;background: #90EE90; width: 50%;">
+			<div class="at2" style="float: right;">
+				<img src="images/home7_img5.png" style="height: 232px;">
+			</div>
+			<div style="float: left;margin-top: 65px;margin-left: 40px;">
+				<h2 style="text-align:center;">Miễn phí vận chuyển</h2>
+				<p style="text-align: center;">Đơn hàng trên 299k <br>
+					<button class="btn2">Mua Ngay</button>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-----------------------------Start Noi Bat------------------------------------------->
+	<div class="noibat" style="clear: both;">
+		<h2><b>SẢN PHẨM NỔI BẬT</b></h2>
+		<div id="noibat1">
+			<ul class="nav" role="tablist">
+				<li class="nav-item"><a class="nav-link" href="#moinhat" data-toggle="tab">Mới Nhất</a></li>
+				<li class="nav-item"><a class="nav-link" href="#giamgia" data-toggle="tab">Giảm Giá</a></li>
+				<li class="nav-item"><a class="nav-link" href="#banchay" data-toggle="tab">Bán Chạy</a></li>
+			</ul>
+		</div>
+		<div class="tab-content">
+			<div id="moinhat" class="tab-pane active">
+				<div class="moinhat1">
+					<div class="card" style="border-radius: 10px;padding: 0;margin-right: 40px;float: left;margin-bottom: 40px;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/ớt.jpg" style="width: 275px;border-radius: 5px;">
+								</a>
+								<span class="product-discount-label1" style="background-color: #00CC00;">
+									New
+								</span>
+								<span class="product-discount-label">
+									20%
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Ớt</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price"> 
+									<strike>20<span>,000đ</span></strike> - <span>12</span><span>,000đ</span>
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;margin-bottom: 40px;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/taoxanh.jpg">
+								</a>
+								<span class="product-discount-label1" style="background-color: #00CC00;">
+									New
+								</span>
+								<span class="product-discount-label">
+									-20%
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Táo Xanh</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<div class="price">
+									<span><strike>32,000đ</strike></span> - 24<span>,000đ</span>
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;margin-bottom: 40px;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/rauden.jpg">
+								</a>
+								<span class="product-discount-label1" style="background-color: #00CC00;">
+									New
+								</span>
+								<span class="product-discount-label">
+									-20%
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Rau Dền</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<div class="price">
+									30<span>,000đ</span> - <strike>26,000đ</strike>
+								</div>
+								<ul class="social">
+									<li>
+										<a href="Rauden.html" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;margin-bottom: 40px;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/chuoi.jpg">
+								</a>
+								<span class="product-discount-label1" style="background-color: #00CC00;">
+									New
+								</span>
+								<span class="product-discount-label">
+									-20%
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Chuối</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price">
+									15,000đ - <strike>13,000đ</strike>
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/khoaitay.jpg">
+								</a>
+								<span class="product-discount-label1" style="background-color: #00CC00;">
+									New
+								</span>
+								<span class="product-discount-label">
+									-20%
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Khoai Tây</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<div class="price">
+									<strike>17,000đ</strike> - 15,000đ
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/nhoxanh.jpg">
+								</a>
+								<span class="product-discount-label1" style="background-color: #00CC00;">
+									New
+								</span>
+								<span class="product-discount-label">
+									-20%
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Nho Xanh</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price">
+									<strike>200,000đ</strike> - 180,000đ
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/luu.jpg">
+								</a>
+								<span class="product-discount-label1" style="background-color: #00CC00;">
+									New
+								</span>
+								<span class="product-discount-label">
+									-20%
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Lựu</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price">
+									<strike>35,000đ</strike> - 26,000đ
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>	
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/duasap.jpg">
+								</a>
+								<span class="product-discount-label1" style="background-color: #00CC00;">
+									New
+								</span>
+								<span class="product-discount-label">
+									-20%
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Dừa</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price">
+									<strike>20,000đ</strike> - 18,000đ
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!------------------------------------------------------------------>
+			<div id="giamgia" class="tab-pane fade ">
+				<div class="moinhat1">
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;margin-bottom: 40px;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/dautay.jpg">
+								</a>
+								<span class="product-discount-label">
+									-20%
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Dâu Tây</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price"> 
+									<strike>20<span>,000đ</span></strike> - <span>12</span><span>,000đ</span>
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;margin-bottom: 40px;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/kiwi.jpg" style="height: 282px;">
+								</a>
+								<span class="product-discount-label">
+									-20%
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Ki Wi</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price"> 
+									<strike>159<span>,000đ</span></strike> - <span>139</span><span>,000đ</span>
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;margin-bottom: 40px;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/trungga.jpg">
+								</a>
+								<span class="product-discount-label">
+									-20%
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Trứng Gà</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price"> 
+									<strike>30<span>,000đ</span></strike> - <span>24</span><span>,000đ</span>
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;margin-bottom: 40px;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/ga.jpg" style="height: 282px;">
+								</a>
+								<span class="product-discount-label">
+									-20%
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Thịt Gà</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price"> 
+									<strike>199<span>,000đ</span></strike> - <span>159</span><span>,000đ</span>
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/hanhtay.jpg" style="height: 282px;">
+								</a>
+								<span class="product-discount-label">
+									-40%
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Hành Tây</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price">
+									<strike>20<span>,000đ</span></strike> - <span>16</span><span>,000đ</span>
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/dao.jpg">
+								</a>
+								<span class="product-discount-label">
+									-40%
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Đào</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price">
+									<strike>10<span>,000đ</span></strike> - <span>6</span><span>,000đ</span>
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/ớt.jpg">
+								</a>
+								<span class="product-discount-label">
+									-30%
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Cà Tím</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price">
+									<strike>32<span>,000đ</span></strike>-<span>26</span><span>,000đ</span>
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/thom.jpg">
+								</a>
+								<span class="product-discount-label">
+									-20%
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Thơm</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price"> 
+									<strike>20<span>,000đ</span></strike>-<span>12</span><span>,000đ</span>
+								</div>
+								<ul class="social">
+									<li>
+										<a href="Thơm.html" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!----------------------------------------------------------------->
+			<div id="banchay" class="tab-pane fade ">
+				<div class="moinhat1">
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;margin-bottom: 40px;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/xoai.jpg">
+								</a>
+								<span class="product-discount-label" style="background-color: red">
+									hot
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Xoài</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price">
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;margin-bottom: 40px;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/thanhlong.jpg">
+								</a>
+								<span class="product-discount-label" style="background-color: red">
+									hot
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Thanh Long</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price"> 13
+									<span>12</span>
+								</div>
+								<ul class="social">
+									<li>
+										<a href="ThanhLong.html" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;margin-bottom: 40px;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/suplo.jpg">
+								</a>
+								<span class="product-discount-label" style="background-color: red">
+									hot
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Súp Lơ</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price"> 13
+									<span>12</span>
+								</div>
+								<ul class="social">
+									<li>
+										<a href="suplo.html" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;margin-bottom: 40px;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/dualeo.jpg">
+								</a>
+								<span class="product-discount-label" style="background-color: red">
+									hot
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Dưa Leo</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price"> 13
+									<span>12</span>
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/occho.jpg">
+								</a>
+								<span class="product-discount-label" style="background-color: red">
+									hot
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Óc chó</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price">
+									299,000đ
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/trungga.jpg">
+								</a>
+								<span class="product-discount-label" style="background-color: red">
+									hot
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Trứng Gà</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price">
+									5,000đ
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/ca.jpg">
+								</a>
+								<span class="product-discount-label" style="background-color: red">
+									hot
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Cá Trác Vàng</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price">
+									45,000đ
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card col-3" style="border-radius: 5px;padding: 0;margin-right: 40px; width: 282px;float: left;">
+						<div class="product-grid">
+							<div class="product-image">
+								<a>
+									<img src="images/caithao.jpg">
+								</a>
+								<span class="product-discount-label" style="background-color: red">
+									hot
+								</span>
+							</div>
+							<div class="product-content">
+								<h3 class="title">
+									<a href="">Cải Thảo</a>
+								</h3>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<div class="price">
+									24,000đ
+								</div>
+								<ul class="social">
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-eye"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="wishlist">
+											<i class="fa fa-heart"></i>
+										</a>
+									</li>
+									<li class="btn-buy">
+										<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+											<i class="fa fa-shopping-cart"></i>
+										</a>
+									</li>
+									<li>
+										<a href="" data-tip="quick view">
+											<i class="fa fa-random"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-------------------------------End Noi bat----------------------------------------->
+	<!--------------------------start----------------------------------------------------->
+	<div class="sale">
+		<div class="container">
+			<h1 style="text-align: center; color: white;padding-top: 50px;margin-bottom: 20px;" id="sale">Khuyến mãi trong tuần</h2>
+				<p style="text-align: center;color: white;"id="sale" style="margin-top: -10px;">Cơ hội để gia đình bạn sở hữu những sản phẩm ưu đãi.</p>
+				<div class="countdown" id="sale" style="margin-top: -40px;">
+					<div id="day"></div>
+					<div id="hour"></div>
+					<div id="minute"></div>
+					<div id="second"></div>
+				</div>
+				<div id="sale">
+					<!--Carousel Wrapper-->
+					<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel" >
+
+						<!--Controls-->
+						<div class="controls-top">
+							<a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left" style="color: grey;"></i></a>
+							<a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+								class="fas fa-chevron-right" style="color: grey;"></i></a>
+							</div>
+							<!--/.Controls-->
+
+							<!--Indicators-->
+							<ol class="carousel-indicators">
+								<li data-target="#multi-item-example" data-slide-to="0" class="active dot"></li>
+								<li data-target="#multi-item-example" data-slide-to="1" class="dot"></li>
+								<li data-target="#multi-item-example" data-slide-to="2" class="dot"></li>
+							</ol>
+							<!--/.Indicators-->
+
+							<!--Slides-->
+							<div class="carousel-inner" role="listbox" style="float: left;">
+
+								<!--First slide-->
+								<div class="carousel-item  active" style="float: left;">
+
+
+									<div class="card col-xl-3" style="border-radius: 5px;padding: 0; width: 300px;float: left;margin-right: 50px;margin-left: 80px;">
+										<div class="product-grid">
+											<div class="product-image" style="width: 280px;">
+												<a>
+													<img src="images/catim.jpg" style="height:282px;">
+												</a>
+												<span class="product-discount-label1" style="background-color: red">
+													hot
+												</span>
+												<span class="product-discount-label">
+													-50%
+												</span>
+											</div>
+											<div class="product-content">
+												<h3 class="title">
+													<a href="">Cà Tím</a>
+												</h3>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<div class="price">
+													<strike>14,000đ</strike>-7,000đ
+												</div>
+												<ul class="social">
+													<li>
+														<a href="" data-tip="quick view">
+															<i class="fa fa-eye"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="wishlist">
+															<i class="fa fa-heart"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="add to card">
+															<i class="fa fa-shopping-cart"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="quick view">
+															<i class="fa fa-random"></i>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="card col-xl-3" style="border-radius: 5px;padding: 0; width: 300px;float: left;margin-right: 50px;">
+										<div class="product-grid">
+											<div class="product-image" style="width: 280px;">
+												<a>
+													<img src="images/bosap.jpeg">
+												</a>
+												<span class="product-discount-label1" style="background-color: red">
+													hot
+												</span>
+												<span class="product-discount-label">
+													-50%
+												</span>
+											</div>
+											<div class="product-content">
+												<h3 class="title">
+													<a href="">Bơ Sáp</a>
+												</h3>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star"></span>
+												<div class="price">
+													<strike>42,000đ</strike>-22,000đ
+												</div>
+												<ul class="social">
+													<li>
+														<a href="" data-tip="quick view">
+															<i class="fa fa-eye"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="wishlist">
+															<i class="fa fa-heart"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="add to card">
+															<i class="fa fa-shopping-cart"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="quick view">
+															<i class="fa fa-random"></i>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+									<div class="card col-xl-3" style="border-radius: 5px;padding: 0; width: 300px;float: left;margin-right: 50px;">
+										<div class="product-grid">
+											<div class="product-image" style="width: 280px;">
+												<a>
+													<img src="images/nhoxanh.jpg">
+												</a>
+												<span class="product-discount-label1" style="background-color: red">
+													hot
+												</span>
+												<span class="product-discount-label">
+													-40%
+												</span>
+											</div>
+											<div class="product-content">
+												<h3 class="title">
+													<a href="">Nho Xanh</a>
+												</h3>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<div class="price">
+													<strike>199,000đ</strike>-159,000đ
+												</div>
+												<ul class="social">
+													<li>
+														<a href="" data-tip="quick view">
+															<i class="fa fa-eye"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="wishlist">
+															<i class="fa fa-heart"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="add to card">
+															<i class="fa fa-shopping-cart"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="quick view">
+															<i class="fa fa-random"></i>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<!--/.First slide-->
+
+								<!--Second slide-->
+								<div class="carousel-item" style="float: left;">
+
+									<div class="card col-xl-3" style="border-radius: 5px;padding: 0; width: 300px;float: left;margin-right: 50px;margin-left: 80px;">
+										<div class="product-grid">
+											<div class="product-image" style="width: 280px;">
+												<a>
+													<img src="images/chuoi.jpg">
+												</a>
+												<span class="product-discount-label1" style="background-color: red">
+													hot
+												</span>
+												<span class="product-discount-label">
+													-50%
+												</span>
+											</div>
+											<div class="product-content">
+												<h3 class="title">
+													<a href="">Chuối</a>
+												</h3>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<div class="price">
+													<strike>30,000đ</strike>-15,000đ
+												</div>
+												<ul class="social">
+													<li>
+														<a href="" data-tip="quick view">
+															<i class="fa fa-eye"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="wishlist">
+															<i class="fa fa-heart"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="add to card">
+															<i class="fa fa-shopping-cart"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="quick view">
+															<i class="fa fa-random"></i>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="card col-xl-3" style="border-radius: 5px;padding: 0; width: 300px;float: left;margin-right: 50px;">
+										<div class="product-grid">
+											<div class="product-image" style="width: 280px;">
+												<a>
+													<img src="images/xoai.jpg">
+												</a>
+												<span class="product-discount-label1" style="background-color: red">
+													hot
+												</span>
+												<span class="product-discount-label">
+													-20%
+												</span>
+											</div>
+											<div class="product-content">
+												<h3 class="title">
+													<a href="">Xoài</a>
+												</h3>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<div class="price">
+													<strike>40,000đ</strike>-30,000đ
+												</div>
+												<ul class="social">
+													<li>
+														<a href="" data-tip="quick view">
+															<i class="fa fa-eye"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="wishlist">
+															<i class="fa fa-heart"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="add to card">
+															<i class="fa fa-shopping-cart"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="quick view">
+															<i class="fa fa-random"></i>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+									<div class="card col-xl-3" style="border-radius: 5px;padding: 0; width: 300px;float: left;margin-right: 50px;">
+										<div class="product-grid">
+											<div class="product-image" style="width: 280px;">
+												<a>
+													<img src="images/occho.jpg">
+												</a>
+												<span class="product-discount-label1" style="background-color: red">
+													hot
+												</span>
+												<span class="product-discount-label">
+													-80%
+												</span>
+											</div>
+											<div class="product-content">
+												<h3 class="title">
+													<a href="">Óc chó</a>
+												</h3>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<div class="price">
+													<strike>200,000đ</strike>-40,000đ
+												</div>
+												<ul class="social">
+													<li>
+														<a href="" data-tip="quick view">
+															<i class="fa fa-eye"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="wishlist">
+															<i class="fa fa-heart"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="add to card">
+															<i class="fa fa-shopping-cart"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="quick view">
+															<i class="fa fa-random"></i>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<!--/.Second slide-->
+
+								<!--Third slide-->
+								<div class="carousel-item" style="float: left;">
+
+									<div class="card col-xl-3" style="border-radius: 5px;padding: 0; width: 300px;float: left;margin-right: 50px;margin-left: 80px;">
+										<div class="product-grid">
+											<div class="product-image" style="width: 280px;">
+												<a>
+													<img src="images/rauden.jpg">
+												</a>
+												<span class="product-discount-label1" style="background-color: red">
+													hot
+												</span>
+												<span class="product-discount-label">
+													-20%
+												</span>
+											</div>
+											<div class="product-content">
+												<h3 class="title">
+													<a href="">Rau Dền</a>
+												</h3>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<div class="price">
+													<strike>30,000đ</strike>-26,000đ
+												</div>
+												<ul class="social">
+													<li>
+														<a href="" data-tip="quick view">
+															<i class="fa fa-eye"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="wishlist">
+															<i class="fa fa-heart"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="add to card">
+															<i class="fa fa-shopping-cart"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="quick view">
+															<i class="fa fa-random"></i>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="card col-xl-3" style="border-radius: 5px;padding: 0; width: 300px;float: left;margin-right: 50px;">
+										<div class="product-grid">
+											<div class="product-image" style="width: 280px;">
+												<a>
+													<img src="images/dao.jpg">
+												</a>
+												<span class="product-discount-label1" style="background-color: red">
+													hot
+												</span>
+												<span class="product-discount-label">
+													-20%
+												</span>
+											</div>
+											<div class="product-content">
+												<h3 class="title">
+													<a href="">Đào</a>
+												</h3>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<div class="price">
+													<strike>10,000đ</strike>- 6,000đ
+												</div>
+												<ul class="social">
+													<li>
+														<a href="" data-tip="quick view">
+															<i class="fa fa-eye"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="wishlist">
+															<i class="fa fa-heart"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="add to card">
+															<i class="fa fa-shopping-cart"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="quick view">
+															<i class="fa fa-random"></i>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+									<div class="card col-xl-3" style="border-radius: 5px;padding: 0; width: 300px;float: left;margin-right: 50px;">
+										<div class="product-grid">
+											<div class="product-image" style="width: 280px;">
+												<a>
+													<img src="images/thom.jpg">
+												</a>
+												<span class="product-discount-label1" style="background-color: red">
+													hot
+												</span>
+												<span class="product-discount-label">
+													-40%
+												</span>
+											</div>
+											<div class="product-content">
+												<h3 class="title">
+													<a href="">Thơm</a>
+												</h3>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<div class="price">
+													<strike>20,000đ</strike>- 12,000đ
+												</div>
+												<ul class="social">
+													<li>
+														<a href="" data-tip="quick view">
+															<i class="fa fa-eye"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="wishlist">
+															<i class="fa fa-heart"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="add to card">
+															<i class="fa fa-shopping-cart"></i>
+														</a>
+													</li>
+													<li>
+														<a href="" data-tip="quick view">
+															<i class="fa fa-random"></i>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<!--/.Third slide-->
+
+							</div>
+							<!--/.Slides-->
+
+						</div>
+						<!--/.Carousel Wrapper-->
+					</div>
+				</div>
+			</div>
+			<!-------------------------------End------------------------------------------------->
+			<div class="giaohang" style="height: 800px;">
+				<h1 style="text-align:center;margin-top: 80px;">TẠI SAO BẠN NÊN CHỌN CHÚNG TÔI</h1>
+				<p style="text-align:center;">-Làm thế nào để có một sản phẩm sạch-</p>
+				<div class="s1" style="float: left;margin-left: 180px;margin-top: 100px;">
+					<a href="#" class="iconbtn fas fa-seedling" style="margin-left: 10px;float: right;"></a>
+					<div style="float: left;margin-top: 50px;">
+						<h6 ><b>Chất lượng cao</b></h6>
+						<h6>Đảm bảo an toàn  <br>và sạch</h6>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<div class="s1" style="float: left;margin-left: 180px;margin-top: 50px;">
+					<a href="#" class="iconbtn fas fa-leaf" style="margin-left: 10px;float: right;"></a>
+					<div style="float: left;margin-top: 50px;">
+						<h6 ><b>Luôn luôn tươi</b></h6>
+						<h6>Được bảo quản với  <br>điều kiện tốt nhất</h6>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<div class="s1" style="float: left;margin-left: 170px;margin-top: 50px;">
+					<a href="#" class="iconbtn far fa-lemon" style="margin-left: 10px;float: right;"></a>
+					<div style="float: left;margin-top: 50px;">
+						<h6 ><b>100% tự nhiên</b></h6>
+						<h6>Sản Phẩm luôn luôn<br>tươi không bầm dập</h6>
+					</div>
+				</div>
+
+				<img src="images/giohang.jpg" style="margin-top: -350px;margin-left: 75px; clear: both;">
+				<div style="clear: both;"></div>
+				<div class="s1" style="float: left;margin-left: 1100px;margin-top: -530px;">
+					<a href="#" class="iconbtn fab fa-pagelines" style="margin-left: 10px;float: left;"></a>
+					<div style="float: right;margin-top: 50px;">
+						<h6 ><b>Đảm bảo 100% hữu cơ</b></h6>
+						<h6>Áp dụng khoa học công nghệ <br>trong sản xuất</h6>
+					</div>
+				</div>
+				<div class="s1" style="float: left;margin-left: 1100px;margin-top: -350px;">
+					<a href="#" class="iconbtn fas fa-pepper-hot" style="margin-left: 10px;float: left;"></a>
+					<div style="float: right;margin-top: 50px;">
+						<h6 ><b>Siêu sạch</b></h6>
+						<h6>Sản xuất ko dùng thuốc <br>bảo vệ thực vật</h6>
+					</div>
+				</div>
+				<div class="s1" style="float: left;margin-left: 1100px;margin-top: -150px;">
+					<a href="#" class="iconbtn fas fa-qrcode" style="margin-left: 10px;float: left;"></a>
+					<div style="float: right;margin-top: 50px;">
+						<h6><b>Cung cấp quá trình sản xuất</b></h6>
+						<h6>Công nghệ Block Chain</h6>
+					</div>
+				</div>
+			</div>
+			<!-------------------------------Start dichvu----------------------------------------->
+			<div style="height:900px;" class="pro">
+				<div class="thucpham" style ="height: 350px;">
+					<h1 style="text-align:center;padding-top: 100px;color: white;">Thực Phẩm Tốt Cho Sức Khỏe</h1>
+				</div>
+				<div >
+					<div class="vegate" style="height: 400px; width: 480px;background:#00CD00;float: left;margin-left: 20px;margin-top: -150px;">
+						<div style="text-align:center;">
+							<h5 style="color: white;margin-top: 80px;">Rau Củ</h5>
+							<h3 style="color: white;">Hữu Cơ Và An Toàn</h3>
+							<button >Mua Ngay</button>
+						</div>
+						<img src="images/img-banner2.png" style="width: 450px;margin-top: 30px;">
+					</div>
+					<div class="vegate" style="height: 400px; width: 480px;background:#FFB90F;float: left;margin-left: 20px;margin-top: -150px;">
+						<div style="text-align:center;margin-top: 80px;">
+							<h5>Trái Cây Suốt Mùa Hè</h5>
+							<h3>Giảm tới 50% trong tháng 6 - 7</h3>
+							<button >Mua Ngay</button>
+						</div>
+						<img src="images/img-banner1.png" style="width: 450px;margin-top: 30px;">
+					</div>
+					<div class="vegate" style="height: 400px; width: 480px;background:yellow;float: left;margin-left: 20px;margin-top: -150px;">
+						<div style="text-align:center;margin-top: 80px;">
+							<h5>Thịt </h5>
+							<h3>Ngon tươi mỗi ngày</h3>
+							<button >Mua Ngay</button>
+						</div>
+						<img src="images/img-banner3-1.png" style="width: 450px;margin-top: 100px;">
+					</div>
+				</div>
+			</div>
+			<!-------------------------------End dichvu----------------------------------------->
+			<!--------------------------Start------------------------------------------------->
+			<div>
+				<img src="images/image-new-8.jpg" style="width: 1500px;">
+			</div>
+			<!-------------------------------End----------------------------------------->
+			<div class="slider-area">
+				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+						<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="img-area">
+								<img src="images/neymar.jpg" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Cr7</h5>
+								<p style="text-align:center;">Chất lượng tốt <br>
+									Tôi đã mua ở đây nhiều lần thực phẩm rất ngon
+									<br>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+								</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="img-area">
+								<img src="images/neymar.jpg" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Messi</h5>
+								<p style="text-align:center;">Chất lượng tốt <br>
+									Thịt và cá rất là tươi ngon <br>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+								</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="img-area">
+								<img src="images/neymar.jpg" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Neymar</h5>
+								<p style="text-align:center;">Chất lượng tốt <br>
+									Chúng tôi sẽ luôn luôn ủng hộ <br>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+			<div class="hoptac" style="padding-bottom: 100px;margin-left: 50px;">
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner" >
+						<div class="carousel-item active">
+							<div class="row">
+								<div class="col-xl-2"><img src="images/brand1.png" style="width: 50px;"class="d-block w-100" alt="..."></div>
+								<div class="col-xl-2"><img src="images/brand2.png" style="width: 50px; "class="d-block w-100" alt="..."></div>
+								<div class="col-xl-2"><img src="images/brand4.png" style="width: 50px; "class="d-block w-100" alt="..."></div>
+								<div class="col-xl-2"><img src="images/brand5.png" style="width: 50px; "class="d-block w-100" alt="..."></div>
+								<div class="col-xl-2"><img src="images/brand4.png" style="width: 50px; "class="d-block w-100" alt="..."></div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col-xl-2"><img src="images/brand3.png" style="width: 50px;"class="d-block w-100" alt="..."></div>
+								<div class="col-xl-2"><img src="images/brand4.png" style="width: 50px;"class="d-block w-100" alt="..."></div>
+								<div class="col-xl-2"><img src="images/brand5.png" style="width: 50px;"class="d-block w-100" alt="..."></div>
+								<div class="col-xl-2"><img src="images/brand6.png" style="width: 50px;"class="d-block w-100" alt="..."></div>
+								<div class="col-xl-2"><img src="images/brand2.png" style="width: 50px; "class="d-block w-100" alt="..."></div>
+							</div>
+						</div>
+
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true" ></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<hr style="width: 1100px;">
+			</div>
+			<!--------------------------Start------------------------------------------------->
+			<div class="tintuc" style="height: 750px;">
+				<div class="container">
+					<h3 style="text-align: center;padding-bottom: 50px;">Tin Tức</h3>
+					<div>
+						<div class="row" style="margin-left: -50px;">
+							<div class="col-sm-4" s>
+								<a href="Tintuc-1.html" class="card-link">
+									<div class="card" style="height: 643px;" >
+										<img src="images/Tintuc2.jpg" class="card-img-top toi-tintuc">
+										<div class="card-body" style="color: black">
+											<h4 class="card-title">HTX dịch vụ nông nghiệp cần mở rộng sản xuất,</h4>
+											<p class="card-text"><span style="margin-right: 10px;"><i class="far fa-calendar-alt"></i></span>15 - 06 - 2019<span style="margin-left: 50px;margin-right: 10px;"><i class="fas fa-eye"></i></span>31</p>
+											<p class="card-text">Ngày 22-12, Liên minh Hợp tác xã thành phố Hà Nội đã tổ chức buổi tọa đàm “Nâng cao hiệu quả</p>
+											<div style="text-align: center;">
+												<button class="btn btn-success">Xem tiếp</button>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="Tintuc-2.html" class="card-link">
+									<div class="card" style="color: black">
+										<img src="images/Taovieclam-tintuc.jpg" class="card-img-top">
+										<div class="card-body">
+											<h4 class="card-title">Tạo việc làm từ dịch vụ nông nghiệp</h4>
+											<p class="card-text"><span style="margin-right: 10px;"><i class="far fa-calendar-alt"></i></span>17 - 04 - 2019<span style="margin-left: 50px;margin-right: 10px;"><i class="fas fa-eye"></i></span>30</p>
+											<p class="card-text">Đây là hình thức tạo việc làm do nông dân tự liên kết lại; vừa tạo việc làm cho LĐ nông thôn, vừa..</p>
+											<div style="text-align: center;">
+												<button class="btn btn-success">Xem tiếp</button>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="#" class="card-link">
+									<div class="card" style="color: black">
+										<img src="images/Tintuc3.jpg" class="card-img-top">
+										<div class="card-body">
+											<h4 class="card-title">Lao động nông nghiệp: Số lượng lớn,chất lượng thấp</h4>
+											<p class="card-text"><span style="margin-right: 10px;"><i class="far fa-calendar-alt"></i></span>20 - 02 - 2020<span style="margin-left: 50px;margin-right: 10px;"><i class="fas fa-eye"></i></span>50</p>
+											<p class="card-text">Trong 10 năm qua, đã có 15 triệu lao động có việc làm, trong đó, khoảng 50% làm trong lĩnh vực,...</p>
+											<div style="text-align: center;">
+												<button class="btn btn-success">Xem tiếp</button>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-------------------------------End----------------------------------------->
+		<button onclick="topFunction()" id="myBtn" title="Go to top" style="border-radius: 50%;" >Top</button>
+		<div class="dienthoai">
+			<ul>
+				<a href="#"><li class="facebool"><i class="fab fa-facebook-f"></i></i></li></a>
+				<a href="#"><li class="twitter"><i class="fab fa-twitter"></i></li></a>
+				<a href="#"><li class="instagram"><i class="fab fa-instagram"></i></li></a>
+			</ul>
+		</div>
+		<div style="clear: both;">
+
+		</div>
+		<!--------------------------Start------------------------------------------------->
+		<footer>
+			<div class="jumbotron">
+				<p style="font-size: 30px;color: white;" class="dk">ĐĂNG KÝ NGAY</p>
+				<p style="font-size: 35px;color: #8cc63f;"class="dk">GIẢM GIÁ 30% ĐƠN HÀNG</p>
+				<div role="form" class="form">
+					<form class="dk" style="margin-left: 110px;">
+						<input type="email" placeholder="Email của bạn" class="form-input">
+						<input type="submit" value="Đăng ký" class="form-button">
+					</form>
+				</div>
+			</div>
+			<div class="card-footer">
+				<div class="row">
+					<div class="col-sm-3 logo-g">
+						<div class="content-logo" style="margin-top: 10px;">
+							<h1 class="logo" style="font-size: 30px;margin-left: -5px;">Free</h1>
+							<div class="content">
+								<p style="float: left;">319 C16 Lý Thường Kiệt, Phường 15,\Quận 11, Tp.HCM</p>
+								<p style="float: left;">076 922 0162</p>
+								<div style="clear: left;"></div>
+								<p style="float: left;">demonhunterg@gmail.com</p>
+								<div style="clear: left;"></div>
+								<p style="float: left;">demonhunterp</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-2 content-g">
+						<p class="sanpham">SẢN PHẨM</p>
+						<div class="content">
+							<p>Rau củ</p>
+							<p>Hải sản</p>
+							<p>Trái cây</p>
+							<p>Đồ uống</p>
+							<p>Thịt trứng</p>
+						</div>
+					</div>
+					<div class="col-sm-2 content-g">
+						<p class="danhmuc">DANH MỤC</p>
+						<div class="content">
+							<p>Trang chủ</p>
+							<p>Giới thiệu</p>
+							<p>Sản phẩm</p>
+							<p>Trang chủ</p>
+							<p>Trang chủ</p>
+						</div>
+					</div>
+					<div class="col-sm-4 content-g">
+						<div class="content-dk">
+							<p class="dangky">ĐĂNG KÝ</p>
+							<p class="content">Đăng ký để nhận được được thông tin<br>mới nhất từ chúng tôi.</p>
+							<form>
+								<input type="email" placeholder="Email..." class="input-footer">
+								<button class="btn-footer"><span><i class="far fa-envelope icon-gmail"></i></span></button>
+							</form>
+							<div class="icon">
+								<span><i class="fab fa-facebook-f"></i></span>
+								<span style="margin-left: 20px;"><i class="fab fa-instagram"></i></span>
+								<span style="margin-left: 20px;"><i class="fab fa-twitter"></i></span>
+								<span style="margin-left: 20px;"><i class="fab fa-youtube"></i></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-----------------------------end------------------------------------>
+	</div>
+	<!---------------------end trang chu------------------------------------->
+</div>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script src="main.js"></script>
+<script src="Giohang.js"></script>
+</body>
+</html>

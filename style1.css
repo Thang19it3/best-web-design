@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+background:#000 url(images/nen1.jpg);
+background-attachment:fixed;
+background-blend-mode: hard-light;
+}
+.container{
+	position: absolute;
+	top: 80px;
+	left: 100px;
+	right: 100px;
+	bottom: 80px;
+	background-attachment: center;
+	background: url(images/nen1.jpg);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	box-shadow: 0 50px 50px rgba(0,0,0,0.5),0 0 0 100px rgba(0,0,0,.1);
+}
+.countdown{
+	display: flex;
+	margin-top: 50px;
+}
+.countdown div{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background: #333;
+	color: #fff;
+	margin: 0 15px;
+	font-style: 3em;
+	font-weight: 500;
+}
+.countdown div:before{
+	content: '';
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	background: #ff0;
+	color: #333;
+	font-size: : 0.35em;
+	line-height: 35px;
+	font-weight: 300;
+}
+.countdown div#day:before{
+	content: 'Days';
+}
+.countdown div#hour:before{
+	content: 'Days';
+}
+.countdown div#minute:before{
+	content: 'Minutes';
+}
+.countdown div#second:before{
+	content: 'Seconds';
+}
+.dichvu{
+	
+	margin-top: 50px;
+	height: 800px;
+}
+.dichvu .container
+{
+	position: relative;
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 20px;
+	margin-left: 250px;
+}
+.dichvu .container .card
+{
+	position: relative;
+	height: 250px;
+	background: #fff;
+	display: flex;
+	width: 45%;
+	margin: 30px 0;
+
+}
+.dichvu .container .card .imgBx{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #333;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transition:  0.5s ease-in-out;
+}
+.dichvu .container .card:hover .imgBx{
+	width: 150px;
+	height: 150px;
+	left: -75px;
+	top: calc(50% - 75px);
+	transition: 0.5 ease-in-out;
+	background: #ff0057;
+}
+.dichvu .container .card .imgBx:before
+{
+	content: attr(data-text);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 6em;
+	color: rgba(255,255,255,.05);
+	font-weight: 700;
+}
+.dichvu .container .card .imgBx img
+{
+	max-width: 100px;
+	transition: 0.5 ease-in-out;
+}
+.dichvu .container .card:hover .imgBx img
+{
+	max-width: 75px;
+
+}
+.dichvu .container .card .content
+{
+	position: absolute;
+	right: 0;
+	width: calc(100%-75px);
+	height: 100%;
+	padding: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+.dichvu .container .card .content h3
+{
+	margin-bottom: 5px;
+	font-size: 24px;
+}
+.dichvu .container .card .content a{
+	display: inline-block;
+	margin-top: 10px;
+	padding:5px 10px;
+	background: #333;
+	text-decoration: none;
+	color: #fff;
+}

@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="Tintuc.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+	<style type="text/css">
+		h5{
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav class="black1">
+			<img src="images/freshfood.jpg" class="logo" id="text8" style="width: 80px; height: 80px;margin-top: 0px;">
+			<div class="menu">
+				<ul class="nav" role="tablist">
+					<li class="nav-item"><a class="nav-link active text1" id="text" href="demo6.html">Trang Chủ</a></li>
+					<li class="nav-item"><a class="nav-link text1" id="text1" href="Gioithieu.html">Giới Thiệu</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle text1"  id="text2"  data-toggle="dropdown" href="#cuahang" role="button" aria-haspopup="true" aria-expanded="false">Cửa Hàng</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item " id="text"  href="CuaHang.html">Tất Cả</a>
+							<a class="dropdown-item " id="text" href="RauCu.html">Rau Củ</a>
+							<a class="dropdown-item " id="text"  href="TraiCay.html">Trái Cây</a>
+							<a class="dropdown-item " id="text"  href="ThitTrung.html">Thịt Trứng</a>
+							<a class="dropdown-item " id="text" data-toggle="tab" href="#dung">Đồ uống</a>
+						</div>
+					</li>
+					<li class="nav-item"><a class="nav-link text1" id="text4"  href="Tintuc.html">Tin Tức</a></li>
+					<li class="nav-item"><a class="nav-link text1"  id="text5" href="Lienhe.html">Liên Hệ</a></li>
+					<li class="nav-item" style="margin-right: 15px;"><a class="nav-link text1"  id="text6" href="#tk" data-toggle="tab"><span><i class="fas fa-search"></i></span></a></li>
+					<li class="nav-item" style="margin-left: -50px;margin-right: 15px;">
+						<a class="nav-link text1"  id="text7" href="Giohang.html">
+							<span><i class="fas fa-shopping-cart"></i></span>
+							<span class="cart"><sup id="count-item" data-count = "0">0</sup></span>
+						</a>
+					</li>
+					<li class="nav-item" style="margin-left: -50px;"><a class="nav-link text1"  id="text8" href="Login.html" ><span><i class="fas fa-user-astronaut"></i></span></a></li>
+				</ul>		
+			</div>
+		</nav>
+
+	</header>
+	<div class="h1-g">
+		<div class="title">
+			<h1 style="font-weight: bold;">Giao Hàng tận tay người dùng</h1>
+			<p id="p1" style="font-size: 20px;font-weight: bold;">Với chất lượng nông sản sạch và an toàn nhất</p>
+		</div>
+	</div>
+
+	<div class="container" style="width: 1500px;font-family: 'Ubuntu', sans-serif;">
+
+
+		<!-------------------------Start--------------------------------->
+
+		<div class="sanpham">
+			<img src="images/rauden.jpg" style="width: 400px;">
+
+		</div>
+		<!-------------------------End----------------------------------->
+		<!-------------------------Start-------------------------------->
+		<div class="review">
+			<h2 style="font-size: 30px;margin-left: 130px;"><b>Rau Dền</b></h2>
+			<hr style="width: 500px;height: 3px;background-color: black;">
+			<h6 style="font-size: 28px;margin-left: 150px;">29,000đ</h6>
+			<table id="table1">
+				<tr>
+					<td><span><i class="far fa-check-square"></i></span></td>
+					<td><b>Gọi mua hàng 1900 636 648</b></td>
+				</tr>
+				<tr>
+					<td><span><i class="far fa-check-square"></i></span></td>
+					<td><b>Đảm bảo tươi ngon</b></td>
+				</tr>
+				<tr>
+					<td><span><i class="far fa-check-square"></i></span></td>
+					<td><b>Giao hàng nhanh</b></td>
+				</tr>
+				<tr>
+					<td><span><i class="far fa-check-square"></i></span></td>
+					<td><b>Đổi trả trong vòng 24h</b></td>
+				</tr>
+				<tr>
+					<td>
+						<div class="shopping-cart" style="border: 1px ridge black; width: 95px;border-radius: 5px;">
+							<div>
+								<span class="increase" style="margin-left: 5px;">-</span>
+								<span class="value"style="margin-left: 15px;">1</span>
+								<span class="reduction" style="margin-left: 20px;">+</span>
+							</div>
+						</div>
+					</td>
+					<td>
+						<button class="btn btn-success">Thêm vào giỏ</button>
+						<button class="btn btn-success" type="button" data-toggle="modal" data-target="#myModal">Mã Vạch</button>
+						<div class="modal" id="myModal" style="margin-top: 200px;">
+							<div class="modal-dialog" >
+								<div class="modal-content">
+
+									<!-- Modal Header -->
+									<div class="modal-header">
+										<h4 class="modal-title">Mã Vạch</h4>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+
+									<!-- Modal body -->
+									<div class="modal-body">
+										<img src="images/mavach.jpg" style="width: 200px;">
+									</div>
+
+									<!-- Modal footer -->
+									<div class="modal-footer">
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</td>
+
+				</tr>
+			</table>
+			<table id="table2" >
+				<tr>
+					<td colspan="2" >Tính phí ship</td>
+					<td colspan="2" >Thanh Toán</td>
+				</tr>
+				<tr >
+					<td>
+						<img src="images/giaohang.jpg"style="width: 70px;">
+					</td>
+					<td ><img src="images/giaohang1.jpg" style="width: 70px;"></td>
+					<td><img src="images/giaohang2.jpg" style="width: 70px;"></td>
+					<td><img src="images/giaohang3.jpg" style="width: 70px;"></td>
+				</tr>
+				<tr >
+					<td ><img src="images/thanhtoan1.jpg" style="width: 70px;"></td>
+					<td><img src="images/thanhtoan2.jpg" style="width: 70px;"></td>
+					<td><img src="images/thanhtoan3.jpg" style="width: 70px;"></td>
+					<td><img src="images/thanhtoan4.jpg" style="width: 70px;"></td>
+				</tr>
+			</table>
+		</div>
+		<!-----------------------------End----------------------------->
+		<!--------------------------Start-------------------------------->
+		<div class="mota" style="clear: left;padding-top: 100px;">
+			<ul class="nav nav-pills">
+				<li class="nav-item" role="tablist">
+					<a class="nav-link active btn-success" data-toggle="tab" href="#mota" style="margin-right: 5px;">Mô Tả</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link btn-success" data-toggle="tab" href="#danhgia" style="width: 120px;">Đánh Giá(0)</a>
+				</li>
+			</ul>
+		</div>
+		<div class="tab-content">
+
+			<div id="mota" class="container tab-pane active">
+				<h3 style="margin-top: 30px;">Đặc điểm của Rau dền</h3>
+				<p>Giàu canxi và niacin, loại rau ăn lá này không thể thiếu trong chế độ ăn hàng ngày. Từ nấu canh đến sử dụng để chữa thiếu canxi, rau dền là câu trả lời cuối cùng cho một cuộc sống khỏe mạnh</p>
+				<h3>Rau dền mang lại lợi ích gì cho sức khỏe?</h3>
+				<h5>Cải thiện tiêu hóa</h5>
+				<p>Hàm lượng chất xơ trong rau dền cực kỳ có lợi cho hệ tiêu hóa. Chất xơ giúp điều chỉnh nhu động ruột nhờ làm sạch đại tràng. Rau dền cải thiện quá trình tiêu hóa và cải thiện sức khỏe đại tràng. Nó giúp giảm táo bón và ngăn ngừa ung thư đại tràng, đái tháo  đường và cholesterol.</h5>
+
+					<h5>Điều trị ung thư</h5>
+					<p>Rau dền chứa axit amin, sắt, phốt pho, vitamin E, kali, vitamin C và magiê phối hợp với nhau để loại bỏ sự phát triển của các tế bào ung thư. Các chất chống oxy hóa trong rau cũng đóng vai trò chính trong việc ngăn ngừa sự tấn công của bệnh ung thư. Ăn rau dền thường xuyên có thể giúp ngăn ngừa ung thư.</p>
+					<h5>Hỗ trợ giảm cân</h5>
+					<p>Hàm lượng protein trong rau dền giúp giảm insulin trong máu. Protein giải phóng một hoóc-môn có vai trò ngăn chặn cơn đói, nghĩa là nó giúp giảm cảm giác đói thường xuyên. Hàm lượng chất xơ cũng giúp.</p>
+					<h5>Điều trị thiếu máu</h5>
+					<p>Rau dền có hàm lượng sắt cao, cực kỳ có lợi cho máu trong cơ thể. Thường xuyên ăn rau dền có thể cải thiện lượng hemoglobin và thanh lọc máu, giúp cải thiện lưu lượng máu của bạn một cách tự nhiên. Hãy kết hợp rau dền trong chế độ ăn hàng ngày nếu bạn bị thiếu máu.</p>
+					<h5>Cải thiện chức năng thận</h5>
+					<p>Các nghiên cứu đã tiết lộ rằng ăn rau dền thường xuyên có thể cải thiện chức năng của thận, chủ yếu là nhờ hàm lượng chất xơ cao. Những nốt sần của lá được cho là có nhiều lợi ích hơn đối với thận, do đó, ăn nó cùng với lá sẽ giúp đào thải chất độc khỏi cơ thể.
+						<br>
+						<img src="images/rauden1.png">
+						<br>
+					</p>
+					<h5>Chữa kiết lỵ</h5>
+					<p>
+						Thân rau dền được chứng minh là có lợi trong điều trị bệnh kiết lỵ. Chất xơ hòa tan trong lá giúp hấp thụ nước và làm sạch đường tiêu hóa. Các anthocyanin trong rau dền giúp loại bỏ vi khuẩn gây bệnh kiết lỵ. Bạn có thể chế biến một phàn ăn từ thân cây rau dền để chữa kiết lỵ.
+					</p>
+					<h4>Điều trị hen</h4>
+					<p>Beta-carotene có hiệu quả cao trong điều trị bệnh mãn tính. Rau dền có hàm lượng chất dinh dưỡng cũng như beta-carotene tốt có thể giúp ngăn ngừa khởi phát bệnh hen. Nó cải thiện chức năng hệ hô hấp và làm thông những chỗ tắc nghẽn trong các ống phế quản.<br>
+					</p>
+					<h5>Cải thiện hệ miễn dịch</h5>
+					<p>Là một nguồn giàu vitamin và chất dinh dưỡng, rau dền đóng vai trò chính trong việc cải thiện hệ miễn dịch. Các axit amin, vitamin E, vitamin K, sắt, magiê, phốt pho và kali hỗ trợ tăng cường hệ miễn dịch, và qua đó bảo vệ cơ thể khỏi vi khuẩn hoặc vi rút gây bệnh.<br>
+					</p>
+					
+					<hr style="width: 1100px;">
+				</div>
+				<div id="danhgia" class="container tab-pane fade">
+					<h1><b>Đánh Giá</b></h1>
+					<p>Chưa có đánh giá nào.</p>
+					<form>
+						<fieldset style="border: 4px solid #00FF33;">
+							<h1 style="margin-left: 30px;margin-top: 30px;">Hãy là người đầu tiên nhận xét</h1>
+							<h6 style="margin-left: 30px;">Đánh Giá của bạn</h6>
+							<div class="rating" style="margin-left: 30px;">
+								<i class="fa fa-star" aria-hidden="true" id="s1"></i>
+								<i class="fa fa-star" aria-hidden="true" id="s2"></i>
+								<i class="fa fa-star" aria-hidden="true" id="s3"></i>
+								<i class="fa fa-star" aria-hidden="true" id="s4"></i>
+								<i class="fa fa-star" aria-hidden="true" id="s5"></i>
+							</div>
+							<h6 style="margin-left: 30px;">Nhận xét của bạn*</h6>
+							<textarea rows="5" cols="140" style="margin-left: 30px;"></textarea>
+							<div style="float: left;">
+								<h6 style="margin-left: 30px;">Tên*</h6>
+								<input type="text" name="" style="width: 500px;margin-left: 30px;">
+							</div>
+							<div style="float: right;">
+								<h6>Email*</h6>
+								<input type="text" name="" style="width: 500px;margin-right: 28px;">
+							</div>
+							<div style="clear: left; padding-top: 20px;">
+								<button class="btn btn-success" style="margin-left: 30px;margin-bottom: 30px;">Gửi đi</button>
+							</div>
+
+						</fieldset>
+					</form>
+				</div>
+
+			</div>
+			<!-----------------------------End----------------------------->
+
+			<!-----------------------------Start----------------------------->
+			<div class="sp" style="height: 500px;margin-top: 50px;">
+				<h2 style="text-align: center;margin-bottom: 30px;"><b>SẢN PHẨM TƯƠNG TỰ</b></h2>
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner" >
+						<div class="carousel-item active">
+							<div class="row" style="width: 1130px">
+								<div class="card col-3" style="border-radius: 5px;padding: 0; width: 282px;margin-right: 40px;">
+								<div class="product-grid">
+									<div class="product-image">
+										<a>
+											<img src="images/luu.jpg">
+										</a>
+										<span class="product-discount-label1" style="background-color: #00CC00;">
+											New
+										</span>
+										<span class="product-discount-label" style="background-color: red;">
+											hot
+										</span>
+									</div>
+									<div class="product-content">
+										<h3 class="title">
+											<a href="">Lựu</a>
+										</h3>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<div class="price">
+											30,000đ
+										</div>
+										<ul class="social">
+											<li>
+												<a href="" data-tip="quick view">
+													<i class="fa fa-eye"></i>
+												</a>
+											</li>
+											<li>
+												<a href="" data-tip="wishlist">
+													<i class="fa fa-heart"></i>
+												</a>
+											</li>
+											<li class="btn-buy">
+												<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</li>
+											<li>
+												<a href="" data-tip="quick view">
+													<i class="fa fa-random"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+								<div class="card col-3" style="border-radius: 5px;padding: 0; width: 282px;margin-right: 40px;">
+								<div class="product-grid">
+									<div class="product-image">
+										<a>
+											<img src="images/chuoi.jpg">
+										</a>
+										<span class="product-discount-label1" style="background-color: #00CC00;">
+											New
+										</span>
+										<span class="product-discount-label">
+											-20%
+										</span>
+									</div>
+									<div class="product-content">
+										<h3 class="title">
+											<a href="">Chuối</a>
+										</h3>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<div class="price">
+											<strike>49,000đ</strike>-29,000đ
+										</div>
+										<ul class="social">
+											<li>
+												<a href="" data-tip="quick view">
+													<i class="fa fa-eye"></i>
+												</a>
+											</li>
+											<li>
+												<a href="" data-tip="wishlist">
+													<i class="fa fa-heart"></i>
+												</a>
+											</li>
+											<li class="btn-buy">
+												<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</li>
+											<li>
+												<a href="" data-tip="quick view">
+													<i class="fa fa-random"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+								<div class="card col-3" style="border-radius: 5px;padding: 0; width: 282px;margin-right: 40px;b">
+								<div class="product-grid">
+									<div class="product-image">
+										<a>
+											<img src="images/dao.jpg">
+										</a>
+										<span class="product-discount-label1" style="background-color: #00CC00;">
+											New
+										</span>
+										<span class="product-discount-label" style="background-color: red;">
+											hot
+										</span>
+									</div>
+									<div class="product-content">
+										<h3 class="title">
+											<a href="">Đào</a>
+										</h3>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<div class="price">
+											18,00đ
+										</div>
+										<ul class="social">
+											<li>
+												<a href="" data-tip="quick view">
+													<i class="fa fa-eye"></i>
+												</a>
+											</li>
+											<li>
+												<a href="" data-tip="wishlist">
+													<i class="fa fa-heart"></i>
+												</a>
+											</li>
+											<li class="btn-buy">
+												<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</li>
+											<li>
+												<a href="" data-tip="quick view">
+													<i class="fa fa-random"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+								
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row" style="width: 1130px;">
+								<div class="card col-3" style="border-radius: 5px;padding: 0; width: 282px;margin-right: 40px;">
+								<div class="product-grid">
+									<div class="product-image">
+										<a>
+											<img src="images/rauden.jpg">
+										</a>
+										<span class="product-discount-label1" style="background-color: #00CC00;">
+											New
+										</span>
+										<span class="product-discount-label">
+											-20%
+										</span>
+									</div>
+									<div class="product-content">
+										<h3 class="title">
+											<a href="">Rau dền</a>
+										</h3>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<div class="price">
+											<strike>18,000đ</strike>-8,000đ
+										</div>
+										<ul class="social">
+											<li>
+												<a href="" data-tip="quick view">
+													<i class="fa fa-eye"></i>
+												</a>
+											</li>
+											<li>
+												<a href="" data-tip="wishlist">
+													<i class="fa fa-heart"></i>
+												</a>
+											</li>
+											<li class="btn-buy">
+												<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</li>
+											<li>
+												<a href="" data-tip="quick view">
+													<i class="fa fa-random"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+								<div class="card col-3" style="border-radius: 5px;padding: 0; width: 282px;margin-right: 40px;">
+								<div class="product-grid">
+									<div class="product-image">
+										<a>
+											<img src="images/thom.jpg">
+										</a>
+										<span class="product-discount-label1" style="background-color: #00CC00;">
+											New
+										</span>
+										<span class="product-discount-label">
+											-20%
+										</span>
+									</div>
+									<div class="product-content">
+										<h3 class="title">
+											<a href="">Thơm</a>
+										</h3>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<div class="price">
+											<strike>49,000đ</strike>-39,000đ
+										</div>
+										<ul class="social">
+											<li>
+												<a href="" data-tip="quick view">
+													<i class="fa fa-eye"></i>
+												</a>
+											</li>
+											<li>
+												<a href="" data-tip="wishlist">
+													<i class="fa fa-heart"></i>
+												</a>
+											</li>
+											<li class="btn-buy">
+												<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</li>
+											<li>
+												<a href="" data-tip="quick view">
+													<i class="fa fa-random"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+								<div class="card col-3" style="border-radius: 5px;padding: 0; width: 282px;margin-right: 40px;b">
+								<div class="product-grid">
+									<div class="product-image">
+										<a>
+											<img src="images/dualeo.jpg">
+										</a>
+										<span class="product-discount-label1" style="background-color: #00CC00;">
+											New
+										</span>
+										<span class="product-discount-label">
+											-20%
+										</span>
+									</div>
+									<div class="product-content">
+										<h3 class="title">
+											<a href="">Dưa Leo</a>
+										</h3>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<div class="price">
+											<strike>49,000đ</strike>-39,000đ
+										</div>
+										<ul class="social">
+											<li>
+												<a href="" data-tip="quick view">
+													<i class="fa fa-eye"></i>
+												</a>
+											</li>
+											<li>
+												<a href="" data-tip="wishlist">
+													<i class="fa fa-heart"></i>
+												</a>
+											</li>
+											<li class="btn-buy">
+												<a href="javascript:void(0)" data-tip="add to card" class="add-cart">
+													<i class="fa fa-shopping-cart"></i>
+												</a>
+											</li>
+											<li>
+												<a href="" data-tip="quick view">
+													<i class="fa fa-random"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							</div>
+						</div>
+
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true" ></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+			<!-----------------------------End----------------------------->
+		</div>
+		<div>
+			<!--------------------------Start------------------------------------------------->
+			<footer>
+				<div class="jumbotron">
+					<p style="font-size: 30px;color: white;" class="dk">ĐĂNG KÝ NGAY</p>
+					<p style="font-size: 35px;color: #8cc63f;"class="dk">GIẢM GIÁ 30% ĐƠN HÀNG</p>
+					<div role="form" class="form">
+						<form class="dk" style="margin-left: 100px;">
+							<input type="email" placeholder="Email của bạn" class="form-input">
+							<input type="submit" value="Đăng ký" class="form-button">
+						</form>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div class="row">
+						<div class="col-sm-3 logo-g" >
+							<div class="content-logo">
+								<h1 class="logo" style="margin-left: -10px;font-size: 30px;">Fresh Food</h1>
+								<div class="content" style="float: left;" >
+									<p>319 Lý Thường Kiệt, Phường 15,<br>Quận 11, Tp.HCM</p>
+									<p>076 922 0162</p>
+									<p>demonhunterg@gmail.com</p>
+									<p>demonhunterp</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-2 content-g" style="margin-top: -50px;">
+							<p class="sanpham">SẢN PHẨM</p>
+							<div class="content">
+								<p>Rau củ</p>
+								<p>Hải sản</p>
+								<p>Trái cây</p>
+								<p>Đồ uống</p>
+								<p>Thịt trứng</p>
+							</div>
+						</div>
+						<div class="col-sm-2 content-g">
+							<p class="danhmuc">DANH MỤC</p>
+							<div class="content">
+								<p>Trang chủ</p>
+								<p>Giới thiệu</p>
+								<p>Sản phẩm</p>
+								<p>Trang chủ</p>
+								<p>Trang chủ</p>
+							</div>
+						</div>
+						<div class="col-sm-4 content-g">
+							<div class="content-dk">	
+								<p class="dangky">ĐĂNG KÝ</p>
+								<p class="content">Đăng ký để nhận được được thông tin<br>mới nhất từ chúng tôi.</p>
+								<form>
+									<input type="email" placeholder="Email..." class="input-footer">
+									<button class="btn-footer"><span><i class="far fa-envelope icon-gmail"></i></span></button>
+								</form>
+								<div class="icon" style="margin-top: 10px;">
+									<span><i class="fab fa-facebook-f"></i></span>
+									<span style="margin-left: 20px;"><i class="fab fa-instagram"></i></span>
+									<span style="margin-left: 20px;"><i class="fab fa-twitter"></i></span>
+									<span style="margin-left: 20px;"><i class="fab fa-youtube"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-----------------------------end------------------------------------>
+		</div>
+
+		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+		<script type="text/javascript">
+		$(window).on("scroll",function() {
+  		// body...
+  		if ($(window).scrollTop()) {
+  			$('nav').addClass('black1');
+  		}
+  	})
+  </script>
+	</body>
+	</html>
